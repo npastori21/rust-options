@@ -1,8 +1,6 @@
 // lib.rs
 pub mod pricing;
 pub mod greeks;
-pub mod strategy;
-pub mod api;
 
 
 pub mod pricing {
