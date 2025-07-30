@@ -1,6 +1,4 @@
 // lib.rs
-pub mod pricing;
-pub mod greeks;
 
 
 pub mod pricing {
