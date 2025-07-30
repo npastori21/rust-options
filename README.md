@@ -15,4 +15,4 @@
 Add to your `Cargo.toml`:
 ```toml
 [dependencies]
-rust-options = { git = "https://github.com/npastori/rust-options" }
+rust-options = { git = "https://github.com/npastori21/rust-options" }
