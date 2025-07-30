@@ -28,6 +28,14 @@ pub mod greeks {
     use statrs::distribution::ContinuousCDF;
     use statrs::distribution::Continuous;
 
+    fn d1(s: f64, k: f64, t: f64, r: f64, v: f64) -> f64 {
+        ((s / k).ln() + (r + 0.5 * v * v) * t) / (v * t.sqrt())
+    }
+
+    fn d2(s: f64, k: f64, t: f64, r: f64, v: f64) -> f64 {
+        d1(s, k, t, r, v) - v * t.sqrt()
+    }
+
     pub fn delta_call(s: f64, k: f64, t: f64, r: f64, v: f64) -> f64 {
         let d1 = ((s / k).ln() + (r + 0.5 * v * v) * t) / (v * t.sqrt());
         Normal::new(0.0, 1.0).unwrap().cdf(d1)
