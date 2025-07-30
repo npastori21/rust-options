@@ -2,6 +2,7 @@
 
 use statrs::distribution::{Normal, Univariate};
 use statrs::distribution::ContinuousCDF;
+use statrs::distribution::Continuous;
 
 
 fn d1(s: f64, k: f64, t: f64, r: f64, v: f64) -> f64 {
