@@ -1,6 +1,7 @@
 // src/greeks.rs
 
-use statrs::distribution::{Normal, Univariate, ContinuousCDF};
+use statrs::distribution::{Normal, Univariate};
+use statrs::distribution::ContinuousCDF;
 
 
 fn d1(s: f64, k: f64, t: f64, r: f64, v: f64) -> f64 {
