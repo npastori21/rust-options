@@ -7,8 +7,6 @@
 - 📈 Black-Scholes pricing (calls and puts)
 - 📊 Delta calculation for options
 - ⚙️ Payoff functions for common strategies (spreads, straddles, etc.)
-- 🌐 Ready for API integrations
-- 🧪 Unit test-ready and modular
 
 ## 📦 Installation
 
