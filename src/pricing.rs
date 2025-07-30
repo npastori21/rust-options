@@ -1,4 +1,4 @@
-use statrs::distribution::{Normal, Univariate};
+use statrs::distribution::Normal;
 use statrs::distribution::ContinuousCDF;
 
 /// Calculates the Black-Scholes price of a European call option

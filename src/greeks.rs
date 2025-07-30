@@ -1,6 +1,6 @@
 // src/greeks.rs
 
-use statrs::distribution::{Normal, Univariate};
+use statrs::distribution::Normal;
 use statrs::distribution::ContinuousCDF;
 use statrs::distribution::Continuous;
 
