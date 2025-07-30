@@ -1,9 +1,21 @@
+[package]
+name = "rust-options"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your@email.com>"]
+license = "MIT OR Apache-2.0"
+description = "Rust library for options pricing and strategy modeling"
+repository = "https://github.com/yourusername/rust-options"
+readme = "README.md"
+keywords = ["options", "trading", "finance", "rust"]
+categories = ["finance"]
+
 [dependencies]
 statrs = "0.16"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
-serde = { version = "1", features = ["derive"] }
-serde_json = "1.0"
 hmac = "0.12"
 sha2 = "0.10"
 base64 = "0.21"
