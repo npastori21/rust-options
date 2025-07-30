@@ -2,7 +2,7 @@
 name = "rust-options"
 version = "0.1.2"
 edition = "2021"
-authors = [npastori@umich.edu"]
+authors = ["npastori@umich.edu"]
 license = "MIT OR Apache-2.0"
 description = "Rust library for options pricing and strategy modeling"
 repository = "https://github.com/yourusername/rust-options"
